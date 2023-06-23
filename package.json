@@ -1,0 +1,24 @@
+{
+  "name": "exposed",
+  "version": "1.0.0",
+  "description": "Backend for Fuser-SM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.3.1",
+    "dotenv": "^16.3.1",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
